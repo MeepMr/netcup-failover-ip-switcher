@@ -56,7 +56,7 @@ jobs:
           push: true
           tags: |
             ghcr.io/meepmr/netcup-failover-ip-switcher:latest
-            ghcr.io/meepmr/netcup-failover-ip-switcher:${{ needs.get-version-number.version-number }}
-            ghcr.io/meepmr/netcup-failover-ip-switcher:${{ needs.get-version-number.version-number-major }}
-            ghcr.io/meepmr/netcup-failover-ip-switcher:${{ needs.get-version-number.version-number-major }}.${{ needs.get-version-number.version-number-minor }}
-            ghcr.io/meepmr/netcup-failover-ip-switcher:${{ needs.get-version-number.version-number-major }}.${{ needs.get-version-number.version-number-minor }}.${{ needs.get-version-number.version-number-patch }}
+            ghcr.io/meepmr/netcup-failover-ip-switcher:${{ needs.get-version-number.outputs.version-no }}
+            ghcr.io/meepmr/netcup-failover-ip-switcher:${{ needs.get-version-number.outputs.version-no-major }}
+            ghcr.io/meepmr/netcup-failover-ip-switcher:${{ needs.get-version-number.outputs.version-no-major }}.${{ needs.get-version-number.outputs.version-no-minor }}
+            ghcr.io/meepmr/netcup-failover-ip-switcher:${{ needs.get-version-number.outputs.version-no-major }}.${{ needs.get-version-number.outputs.version-no-minor }}.${{ needs.get-version-number.outputs.version-no-patch }}
