@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration default="false" name="build docker-image" type="docker-deploy" factoryName="dockerfile"
+                   server-name="Docker">
+        <deployment type="dockerfile">
+            <settings>
+                <option name="containerName" value="netcup-failover-ip-switcher"/>
+                <option name="contextFolderPath" value="."/>
+                <option name="sourceFilePath" value="docker/netcup-failover-ip-switcher.dockerfile"/>
+            </settings>
+        </deployment>
+        <method v="2"/>
+    </configuration>
+</component>

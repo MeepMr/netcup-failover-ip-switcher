@@ -1,0 +1,9 @@
+http-client
+docker
+build
+.run
+.idea
+.gradle
+.github
+dev-config.env
+dev-config.sample.env
