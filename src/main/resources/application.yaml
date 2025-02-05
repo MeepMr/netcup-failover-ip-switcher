@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: 'netcup-failover-ip-switcher'
+uptime-check:
+  timeout: 100
+  servers:
+    - name: '<server-1-name>'
+      url: '<server-1-url>'
+      mac-address: '<server-1-mac-address>'
+  netcup:
+    login-name: '<login-name>'
+    webservice-password: '<webservice-password>'
+    failover-ip: '<failover-ip>'

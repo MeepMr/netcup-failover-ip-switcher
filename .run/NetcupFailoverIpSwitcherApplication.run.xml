@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration default="false" name="NetcupFailoverIpSwitcherApplication"
+                   type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+        <option name="envFilePaths">
+            <option value="$PROJECT_DIR$/dev-config.env"/>
+        </option>
+        <module name="netcup-failover-ip-switcher.main"/>
+        <selectedOptions>
+            <option name="environmentVariables"/>
+        </selectedOptions>
+        <option name="SPRING_BOOT_MAIN_CLASS"
+                value="dev.justinklein.netcupfailoveripswitcher.NetcupFailoverIpSwitcherApplication"/>
+        <method v="2">
+            <option name="Make" enabled="true"/>
+        </method>
+    </configuration>
+</component>
