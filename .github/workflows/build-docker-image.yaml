@@ -51,7 +51,7 @@ jobs:
         with:
           builder: ${{ steps.buildx.outputs.name }}
           context: ./
-          file: ./docker/nectcup-failover-ip-switcher.dockerfile
+          file: docker/netcup-failover-ip-switcher.dockerfile
           platforms: linux/amd64
           push: true
           tags: |
