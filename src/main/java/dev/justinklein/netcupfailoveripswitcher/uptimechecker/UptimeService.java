@@ -43,7 +43,7 @@ public class UptimeService {
       return response.statusCode() == 200;
     } catch (IOException | InterruptedException e) {
       log.error(e.getMessage(), e);
-      throw new RuntimeException(e);
+      return false;
     }
   }
 
